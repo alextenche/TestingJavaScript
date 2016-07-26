@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --reporter nyan",
+    "test:watch": "mocha --watch ./test ./"
   },
   "author": "Alex Tenche",
   "license": "ISC",
